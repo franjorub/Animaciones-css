@@ -1,0 +1,60 @@
+.platzilogo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    transform: rotate(45deg);
+    transition: .5s;
+    transition-delay: .1s;
+    padding: 0px;
+    margin-left: 32%;
+    margin-right: 3%;
+}
+
+nav ul li a {
+    color: black;
+}
+
+.platzilogo:hover {
+    transform: scale(1.2) rotate(45deg);
+}
+
+div p {
+    font-size: 1.5em;
+    color: #212121;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #212121;
+}
+
+.fondo-platzi {
+    background: #273B47;
+    border-radius: 3px;
+}
+
+.box1 {
+    width: 80%;
+    height: 65%;
+    background: 273B47;
+    border-top: 20px solid #97C93E;
+    border-left: 20px solid #97C93E;
+    border-right: 20px solid #97C93E;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    top: 1%;
+}
+
+.box2 {
+    width: 100%;
+    height: 35%;
+    background: 273B47;
+    border-bottom: 20px solid #97C93E;
+    border-left: 20px solid #97C93E;
+    border-right: 20px solid #97C93E;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.8);
+}
